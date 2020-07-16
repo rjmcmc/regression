@@ -16,9 +16,9 @@ description: "This place is for writing regression book."
 
 Before we talk about regression theory, we need to review some basic statistical inference methods and matrix algebra.
 
-This book referred from many books including rowlings' "Applied Regression Analysis: A research Tool". $\beta=(\mathbf{X'X})^{-1}\mathbf{X'y}$.
+This book referred from many books including rowlings' "Applied Regression Analysis: A research Tool". 
 
-A _matrix_ is a square shape array of numbers (sometimes can be string). In this book, boldface letters mean matrices. For example, 
+A _matrix_ is a square-shaped array of numbers (sometimes can be string). In this book, boldface captial letters mean matrices. For example, 
 $$
 \mathbf{A}=
 \begin{pmatrix}
@@ -27,7 +27,17 @@ $$
 68 &167
 \end{pmatrix}.
 $$
-
+The numbers that form a matrix are called the elements of the matrix. A general matrix could be denoted as 
+$$
+\mathbf{A}=
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \cdots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn} 
+\end{bmatrix}.
+$$
+$$
 
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
